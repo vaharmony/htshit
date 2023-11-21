@@ -1,0 +1,44 @@
+div#login h3 {
+    color: #838383;
+    text-align: center;
+}
+div#login h3 {
+    color: #504c81;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.form {
+    width: 100%;
+    left: 0;
+    background: white;
+    bottom: 0;
+    height: 200px;
+    padding: 0;
+    max-width: 380px;
+    margin: 0 auto;
+}
+img.logo {
+    height: 25px;
+    padding: 0px;
+    margin: 30% auto 10%;
+    display: block;
+}
+#login button {
+    margin: 20px auto 0;
+    background-color: red;
+    max-width: 225px;
+}
+
+@media (max-height:348px) and (max-width:768px){
+    img.logo {
+        height: 30px;
+        padding: 25px;
+        margin: 0% auto 0%;
+        display: block;
+    }
+    div#login .form h3 {
+        display: none !important;
+    }
+}
